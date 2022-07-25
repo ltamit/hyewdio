@@ -30,10 +30,13 @@
     "webdriverio": "*"
   },
   "devDependencies": {
-    "@wdio/cli": "*",
-    "@wdio/local-runner": "*",
-    "@wdio/mocha-framework": "*",
+    "@wdio/cli": "^7.20.7",
+    "@wdio/local-runner": "^7.20.7",
+    "@wdio/mocha-framework": "^7.20.7",
+    "@wdio/spec-reporter": "^7.20.7",
     "@wdio/sync": "*",
+    "chromedriver": "^103.0.0",
+    "wdio-chromedriver-service": "^7.3.2",
     "wdio-lambdatest-service": "*"
   }
 }

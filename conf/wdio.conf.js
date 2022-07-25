@@ -14,7 +14,7 @@ exports.config = {
   user: process.env.LT_USERNAME,
   key: process.env.LT_ACCESS_KEY,
   buildName: process.env.LT_BUILD_NAME,
-  specs: ["./tests/specs/single_test.js"],
+  specs: ["./tests/specs/demo.js"],
   exclude: [],
 
   capabilities: [
@@ -23,7 +23,7 @@ exports.config = {
       browserName: browser,
       version: "latest",
       name: "Test WebdriverIO",
-      build: "WebDriver Selenium Sample",
+      build: "WebDriver Selenium Standard",
       visual: true,
       console: true,
       network: true,
@@ -31,6 +31,7 @@ exports.config = {
     }
     }],
   logLevel: "info",
+  maxInstances: 10,
   coloredLogs: true,
   screenshotPath: "./errorShots/",
   waitforTimeout: 100000,

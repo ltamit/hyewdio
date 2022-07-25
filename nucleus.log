@@ -1,0 +1,572 @@
+{"level":"debug","time":"2022-07-22T21:30:12.363+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-22T21:30:13.819+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-22T21:30:13.819+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-22T21:30:13.819+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Trying config: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-22T21:30:13.819+0530","caller":"core/lifecycle.go:96","msg":"using hyperexecute config from : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:96","msg":"Tunnel: false"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"Concurrency:    \u001b[36m2\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"Cache Directories:"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":"    \u001b[36m.node_modules\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:103","msg":""}
+{"level":"debug","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:106","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-22T21:30:14.775+0530","caller":"core/lifecycle.go:106","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2022-07-22T21:30:24.103+0530","caller":"cmd/bin.go:157","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 5.51 % of your limit. Free trial days left - 343\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2022-07-22T21:30:24.103+0530","caller":"cmd/bin.go:157","msg":"Job ID: f282f47e-3f66-422d-af2c-3a7cd86998df"}
+{"level":"debug","time":"2022-07-22T21:30:24.104+0530","caller":"core/lifecycle.go:314","msg":"Creating archive of target directory: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample"}
+{"level":"debug","time":"2022-07-22T21:30:24.140+0530","caller":"core/lifecycle.go:314","msg":"Zip file size: 290KB"}
+{"level":"debug","time":"2022-07-22T21:30:24.140+0530","caller":"cmd/bin.go:157","msg":"Archive location: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-f282f47e-3f66-422d-af2c-3a7cd86998df.zip\n"}
+{"level":"debug","time":"2022-07-22T21:30:24.144+0530","caller":"utils/azcopy.go:137","msg":"Downloading dependency binary ..................."}
+{"level":"info","time":"2022-07-22T21:31:23.159+0530","caller":"utils/azcopy.go:137","msg":"\u001b[91m\u001b[32m✔\u001b[0m Dependency binary downloaded successfully\u001b[0m"}
+{"level":"debug","time":"2022-07-22T21:31:23.159+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 301.0 kB"}
+{"level":"debug","time":"2022-07-22T21:31:23.159+0530","caller":"core/lifecycle.go:338","msg":".hyperexecute/azcopy copy \"/Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-f282f47e-3f66-422d-af2c-3a7cd86998df.zip\" \"https://hyperexecuteprod.blob.core.windows.net/uploads/f282f47e-3f66-422d-af2c-3a7cd86998df.zip?st=2022-07-22T15%3A50%3A23Z&se=2022-07-22T17%3A40%3A23Z&sp=rw&sv=2018-03-28&sr=b&sig=yUtNLNmvJSmM9T6jtfjSF3afsIPv3pdwQGW%2F1x9zw04%3D\" --log-level=NONE"}
+{"level":"debug","time":"2022-07-22T21:31:27.775+0530","caller":"core/lifecycle.go:338","msg":"Uploading yaml : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2022-07-22T21:31:27.775+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 576 B"}
+{"level":"debug","time":"2022-07-22T21:31:29.816+0530","caller":"core/lifecycle.go:338","msg":""}
+{"level":"info","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Job \u001b[1m\u001b[4mf282f47e-3f66-422d-af2c-3a7cd86998df\u001b[0m\u001b[0m has \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=f282f47e-3f66-422d-af2c-3a7cd86998df\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"New Tasks generated"}
+{"level":"debug","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Task id: ee90996f-4385-47a8-9b1b-1260f8ccd3e7"}
+{"level":"debug","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: ee90996f-4385-47a8-9b1b-1260f8ccd3e7"}
+{"level":"debug","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Task id: b6a1f3b1-c1fb-4e73-9f17-76175c4485af"}
+{"level":"debug","time":"2022-07-22T21:31:37.338+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: b6a1f3b1-c1fb-4e73-9f17-76175c4485af"}
+{"level":"info","time":"2022-07-22T21:31:37.834+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:31:38.562+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:31:58.659+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:31:59.657+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:32:02.659+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:32:03.171+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:34:22.216+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/specs/demo.js (2m9s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:34:25.449+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/specs/ToDo.js (2m13s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:36:08.909+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/specs/single_test.js (1m48s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:36:09.660+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-22T21:36:16.640+0530","caller":"core/lifecycle.go:358","msg":"\n\nJob status"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"taskstagemanager/tracker.go:152","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m3m39s\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m3m39s\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    5m51s"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          2"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             9m15s"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Stages\u001b[0m:                         8"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2022-07-22T21:36:16.640+0530","caller":"taskstagemanager/tracker.go:152","msg":""}
+{"level":"debug","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"Successfully deleted code archive: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-f282f47e-3f66-422d-af2c-3a7cd86998df.zip\n"}
+{"level":"debug","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"Context cancelled"}
+{"level":"info","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-07-22T21:36:17.609+0530","caller":"cmd/bin.go:157","msg":"All goroutines exited"}
+{"level":"info","time":"2022-07-22T21:36:17.720+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/specs/googleSearch.js (1m54s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-22T21:36:18.484+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-22T21:36:19.233+0530","caller":"runtime/asm_amd64.s:1571","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-07-23T02:59:14.127+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T02:59:15.348+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T02:59:15.348+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T02:59:15.349+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-23T02:59:15.349+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-23T02:59:55.900+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T02:59:57.064+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T02:59:57.064+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T02:59:57.064+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-23T02:59:57.065+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-23T03:00:52.178+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T03:00:53.291+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T03:00:53.291+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T03:00:53.291+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-23T03:00:53.291+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-23T03:01:57.773+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T03:01:58.893+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T03:01:58.893+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T03:01:58.893+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-23T03:01:58.893+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-23T03:02:12.378+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T03:02:13.430+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T03:02:13.430+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T03:02:13.430+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-23T03:02:13.430+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-23T03:03:52.666+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T03:03:53.888+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T03:03:53.888+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T03:03:53.889+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Trying config: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:03:53.889+0530","caller":"core/lifecycle.go:96","msg":"using hyperexecute config from : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:96","msg":"Tunnel: false"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"Cache Directories:"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":"    \u001b[36m.node_modules\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:103","msg":""}
+{"level":"debug","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:106","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:03:54.915+0530","caller":"core/lifecycle.go:106","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2022-07-23T03:04:01.479+0530","caller":"cmd/bin.go:157","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 5.51 % of your limit. Free trial days left - 343\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2022-07-23T03:04:01.479+0530","caller":"cmd/bin.go:157","msg":"Job ID: 489c4dc0-5b14-48b4-9a10-06fb3363a3f0"}
+{"level":"debug","time":"2022-07-23T03:04:01.480+0530","caller":"core/lifecycle.go:314","msg":"Creating archive of target directory: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample"}
+{"level":"debug","time":"2022-07-23T03:04:01.520+0530","caller":"core/lifecycle.go:314","msg":"Zip file size: 290KB"}
+{"level":"debug","time":"2022-07-23T03:04:01.520+0530","caller":"cmd/bin.go:157","msg":"Archive location: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-489c4dc0-5b14-48b4-9a10-06fb3363a3f0.zip\n"}
+{"level":"debug","time":"2022-07-23T03:04:03.322+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 302.2 kB"}
+{"level":"debug","time":"2022-07-23T03:04:03.324+0530","caller":"core/lifecycle.go:338","msg":".hyperexecute/azcopy copy \"/Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-489c4dc0-5b14-48b4-9a10-06fb3363a3f0.zip\" \"https://hyperexecuteprod.blob.core.windows.net/uploads/489c4dc0-5b14-48b4-9a10-06fb3363a3f0.zip?st=2022-07-22T21%3A24%3A01Z&se=2022-07-22T23%3A14%3A01Z&sp=rw&sv=2018-03-28&sr=b&sig=nQbSqSwdfql7DM6I9GpAXEUilETD63zaK%2Fm%2BBaiV%2Bg0%3D\" --log-level=NONE"}
+{"level":"debug","time":"2022-07-23T03:04:07.380+0530","caller":"core/lifecycle.go:338","msg":"Uploading yaml : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:04:07.380+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 574 B"}
+{"level":"debug","time":"2022-07-23T03:04:09.420+0530","caller":"core/lifecycle.go:338","msg":""}
+{"level":"info","time":"2022-07-23T03:04:17.584+0530","caller":"core/lifecycle.go:358","msg":"Job \u001b[1m\u001b[4m489c4dc0-5b14-48b4-9a10-06fb3363a3f0\u001b[0m\u001b[0m has \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:04:17.584+0530","caller":"core/lifecycle.go:358","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=489c4dc0-5b14-48b4-9a10-06fb3363a3f0\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"New Tasks generated"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: a9b796be-3713-4ad7-b6f5-2932a1b4aa35"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: a9b796be-3713-4ad7-b6f5-2932a1b4aa35"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: 47146432-5a9b-42ce-8b37-1d59279e5ac0"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 47146432-5a9b-42ce-8b37-1d59279e5ac0"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: b26ca93a-68d8-467d-b2d7-cde071c77e6b"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: b26ca93a-68d8-467d-b2d7-cde071c77e6b"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: 2ed8c3dc-e33b-4ea2-b210-416096ef6048"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 2ed8c3dc-e33b-4ea2-b210-416096ef6048"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: 9cf23fc6-544f-409a-80d1-01d0c93c3ec0"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 9cf23fc6-544f-409a-80d1-01d0c93c3ec0"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: d0c0b37f-3909-40ad-adf5-8238c30ca44e"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: d0c0b37f-3909-40ad-adf5-8238c30ca44e"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: e1401f64-67e4-449f-870e-d1aba1310237"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: e1401f64-67e4-449f-870e-d1aba1310237"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: a10b865b-cd37-4a1d-891f-0382b79943a8"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: a10b865b-cd37-4a1d-891f-0382b79943a8"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: bbc5633a-4a4f-4b5a-aac9-6273b74f80ab"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: bbc5633a-4a4f-4b5a-aac9-6273b74f80ab"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Task id: 417b6369-3539-4843-8587-58d5e5eb67d7"}
+{"level":"debug","time":"2022-07-23T03:04:17.585+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 417b6369-3539-4843-8587-58d5e5eb67d7"}
+{"level":"info","time":"2022-07-23T03:04:18.701+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:19.680+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:21.005+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:22.813+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (6s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:23.418+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (6s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:24.895+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:26.852+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:29.035+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:31.566+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:34.220+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:36.614+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:37.114+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:37.648+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (12s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:38.385+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:38.889+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:39.384+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (15s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:40.110+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:40.616+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (15s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:41.125+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:41.624+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:42.118+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:42.852+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:43.376+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:43.878+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:44.627+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:45.123+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:46.844+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[91mx\u001b[0m [3]  \u001b[2mtests/specs/googleSearch.js (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:49.000+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (22s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:49.508+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[91mx\u001b[0m [2]  \u001b[2mtests/specs/demo.js (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:50.018+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:50.514+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[91mx\u001b[0m [4]  \u001b[2mtests/specs/single_test.js (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:51.019+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (24s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:52.937+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:53.685+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:54.279+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:04:55.959+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:00.956+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[91mx\u001b[0m [1]  \u001b[2mtests/specs/ToDo.js (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:03.604+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:17.408+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:17.926+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:18.432+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:20.132+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:20.629+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-23T03:05:26.817+0530","caller":"core/lifecycle.go:358","msg":"\n\nJob status"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"taskstagemanager/tracker.go:152","msg":"\n\u001b[101m FAILED \u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[91m0s\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    1m25s"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          10"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             8m41s"}
+{"level":"info","time":"2022-07-23T03:05:26.818+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Stages\u001b[0m:                         24"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         4"}
+{"level":"info","time":"2022-07-23T03:05:26.819+0530","caller":"taskstagemanager/tracker.go:152","msg":""}
+{"level":"debug","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"Successfully deleted code archive: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-489c4dc0-5b14-48b4-9a10-06fb3363a3f0.zip\n"}
+{"level":"debug","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"Context cancelled"}
+{"level":"info","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-07-23T03:05:27.987+0530","caller":"cmd/bin.go:157","msg":"All goroutines exited"}
+{"level":"debug","time":"2022-07-23T03:05:28.472+0530","caller":"runtime/asm_amd64.s:1571","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-07-23T03:07:54.039+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-23T03:07:55.152+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-23T03:07:55.152+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-23T03:07:55.153+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Trying config: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:07:55.153+0530","caller":"core/lifecycle.go:96","msg":"using hyperexecute config from : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:96","msg":"Tunnel: false"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.241+0530","caller":"core/lifecycle.go:103","msg":"Cache Directories:"}
+{"level":"info","time":"2022-07-23T03:07:56.242+0530","caller":"core/lifecycle.go:103","msg":"    \u001b[36m.node_modules\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:07:56.242+0530","caller":"core/lifecycle.go:103","msg":""}
+{"level":"debug","time":"2022-07-23T03:07:56.242+0530","caller":"core/lifecycle.go:106","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:07:56.242+0530","caller":"core/lifecycle.go:106","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2022-07-23T03:08:00.199+0530","caller":"cmd/bin.go:157","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 5.51 % of your limit. Free trial days left - 343\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2022-07-23T03:08:00.199+0530","caller":"cmd/bin.go:157","msg":"Job ID: b201c9c2-c1cf-4eff-a379-5b4015bbbebd"}
+{"level":"debug","time":"2022-07-23T03:08:00.202+0530","caller":"core/lifecycle.go:314","msg":"Creating archive of target directory: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample"}
+{"level":"debug","time":"2022-07-23T03:08:00.234+0530","caller":"core/lifecycle.go:314","msg":"Zip file size: 290KB"}
+{"level":"debug","time":"2022-07-23T03:08:00.234+0530","caller":"cmd/bin.go:157","msg":"Archive location: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-b201c9c2-c1cf-4eff-a379-5b4015bbbebd.zip\n"}
+{"level":"debug","time":"2022-07-23T03:08:01.744+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 302.3 kB"}
+{"level":"debug","time":"2022-07-23T03:08:01.744+0530","caller":"core/lifecycle.go:338","msg":".hyperexecute/azcopy copy \"/Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-b201c9c2-c1cf-4eff-a379-5b4015bbbebd.zip\" \"https://hyperexecuteprod.blob.core.windows.net/uploads/b201c9c2-c1cf-4eff-a379-5b4015bbbebd.zip?st=2022-07-22T21%3A28%3A00Z&se=2022-07-22T23%3A18%3A00Z&sp=rw&sv=2018-03-28&sr=b&sig=E1NWx9d9ZLfSNIV6BI6GVAGcALcFd%2FeWa2T6kzZMq0g%3D\" --log-level=NONE"}
+{"level":"debug","time":"2022-07-23T03:08:05.785+0530","caller":"core/lifecycle.go:338","msg":"Uploading yaml : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2022-07-23T03:08:05.785+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 577 B"}
+{"level":"debug","time":"2022-07-23T03:08:07.819+0530","caller":"core/lifecycle.go:338","msg":""}
+{"level":"info","time":"2022-07-23T03:08:16.130+0530","caller":"core/lifecycle.go:358","msg":"Job \u001b[1m\u001b[4mb201c9c2-c1cf-4eff-a379-5b4015bbbebd\u001b[0m\u001b[0m has \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:08:16.130+0530","caller":"core/lifecycle.go:358","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=b201c9c2-c1cf-4eff-a379-5b4015bbbebd\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2022-07-23T03:08:16.130+0530","caller":"core/lifecycle.go:358","msg":"New Tasks generated"}
+{"level":"debug","time":"2022-07-23T03:08:16.130+0530","caller":"core/lifecycle.go:358","msg":"Task id: ac25574e-05f5-407c-a814-1a6eac942264"}
+{"level":"debug","time":"2022-07-23T03:08:16.130+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: ac25574e-05f5-407c-a814-1a6eac942264"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 8ac9aff3-05ee-4c34-958f-3ead74f7e6c3"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 8ac9aff3-05ee-4c34-958f-3ead74f7e6c3"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: b815da7a-4c28-4292-929f-bd3837a51649"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: b815da7a-4c28-4292-929f-bd3837a51649"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 920f287b-4720-42f4-bc06-d624671bba53"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 920f287b-4720-42f4-bc06-d624671bba53"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 9305bf81-7a64-47f3-9b35-c3ecf68721f5"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 9305bf81-7a64-47f3-9b35-c3ecf68721f5"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 2061a0f3-5513-4b67-a0be-368939bef13a"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 2061a0f3-5513-4b67-a0be-368939bef13a"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 0299be6d-20be-46f5-836f-e860f3a55170"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 0299be6d-20be-46f5-836f-e860f3a55170"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: fcb58619-8086-45fc-b0ab-f2a02ffd77a0"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: fcb58619-8086-45fc-b0ab-f2a02ffd77a0"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: f17696ba-6c70-4305-9288-34b248aa1a34"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: f17696ba-6c70-4305-9288-34b248aa1a34"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Task id: 7910acd8-d50e-4dfd-9639-3650e53eb7d1"}
+{"level":"debug","time":"2022-07-23T03:08:16.131+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 7910acd8-d50e-4dfd-9639-3650e53eb7d1"}
+{"level":"info","time":"2022-07-23T03:08:16.985+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:17.601+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:18.585+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:19.789+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:21.636+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:23.528+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:25.476+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:27.701+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:30.263+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:32.921+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:34.611+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:35.117+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:35.619+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (13s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:36.117+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:36.613+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:37.354+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:37.862+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:38.363+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:38.872+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (15s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:39.366+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:39.870+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:40.371+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:40.876+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:41.376+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:41.974+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:42.244+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:42.751+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:43.262+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:43.771+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:08:44.288+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:09:15.787+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:09:16.536+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:09:17.040+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:09:17.540+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:09:18.991+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:10:24.285+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:10:55.631+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/specs/demo.js (2m6s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:10:56.884+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mtests/specs/single_test.js (2m10s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:10:59.097+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:11:00.038+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mtests/specs/googleSearch.js (2m10s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:11:00.544+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:11:02.679+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/specs/ToDo.js (2m15s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:11:03.409+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-23T03:11:05.265+0530","caller":"core/lifecycle.go:358","msg":"\n\nJob status"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"taskstagemanager/tracker.go:152","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m1m54s\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m1m54s\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    3m2s"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          10"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             17m2s"}
+{"level":"info","time":"2022-07-23T03:11:05.266+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Stages\u001b[0m:                         24"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2022-07-23T03:11:05.267+0530","caller":"taskstagemanager/tracker.go:152","msg":""}
+{"level":"info","time":"2022-07-23T03:11:05.576+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"Successfully deleted code archive: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-b201c9c2-c1cf-4eff-a379-5b4015bbbebd.zip\n"}
+{"level":"debug","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"Context cancelled"}
+{"level":"info","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-07-23T03:11:06.344+0530","caller":"cmd/bin.go:157","msg":"All goroutines exited"}
+{"level":"debug","time":"2022-07-23T03:11:10.053+0530","caller":"runtime/asm_amd64.s:1571","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-07-25T17:11:51.338+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-25T17:11:52.671+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-25T17:11:52.671+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-25T17:11:52.671+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Custom location for .hyperexecute.yaml specified. Using: --verbose"}
+{"level":"error","time":"2022-07-25T17:11:52.671+0530","caller":"cmd/bin.go:157","msg":"Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    Unable to find config file. Error: \u001b[91mERR::NO::HTY\u001b[0m\n    Unable to find hyperexecute config file\n    No file found at location --verbose"}
+{"level":"debug","time":"2022-07-25T17:12:07.386+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-25T17:12:08.646+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-25T17:12:08.646+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-25T17:12:08.646+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Trying config: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:12:08.647+0530","caller":"core/lifecycle.go:96","msg":"using hyperexecute config from : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:96","msg":"Tunnel: false"}
+{"level":"info","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:103","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:103","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:103","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:103","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.784+0530","caller":"core/lifecycle.go:103","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.785+0530","caller":"core/lifecycle.go:103","msg":"Cache Directories:"}
+{"level":"info","time":"2022-07-25T17:12:09.785+0530","caller":"core/lifecycle.go:103","msg":"    \u001b[36m.node_modules\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:09.785+0530","caller":"core/lifecycle.go:103","msg":""}
+{"level":"debug","time":"2022-07-25T17:12:09.785+0530","caller":"core/lifecycle.go:106","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:12:09.785+0530","caller":"core/lifecycle.go:106","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2022-07-25T17:12:14.355+0530","caller":"cmd/bin.go:157","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 6.06 % of your limit. Free trial days left - 341\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2022-07-25T17:12:14.355+0530","caller":"cmd/bin.go:157","msg":"Job ID: 00f74331-6c56-4775-85cf-eef580f9bb98"}
+{"level":"debug","time":"2022-07-25T17:12:14.356+0530","caller":"core/lifecycle.go:314","msg":"Creating archive of target directory: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample"}
+{"level":"debug","time":"2022-07-25T17:12:14.398+0530","caller":"core/lifecycle.go:314","msg":"Zip file size: 290KB"}
+{"level":"debug","time":"2022-07-25T17:12:14.398+0530","caller":"cmd/bin.go:157","msg":"Archive location: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-00f74331-6c56-4775-85cf-eef580f9bb98.zip\n"}
+{"level":"debug","time":"2022-07-25T17:12:15.789+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 302.3 kB"}
+{"level":"debug","time":"2022-07-25T17:12:15.789+0530","caller":"core/lifecycle.go:338","msg":".hyperexecute/azcopy copy \"/Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-00f74331-6c56-4775-85cf-eef580f9bb98.zip\" \"https://hyperexecuteprod.blob.core.windows.net/uploads/00f74331-6c56-4775-85cf-eef580f9bb98.zip?st=2022-07-25T11%3A32%3A16Z&se=2022-07-25T13%3A22%3A16Z&sp=rw&sv=2018-03-28&sr=b&sig=ZSGYRdszVSWzPv%2BMQ0uB2kLjVMp5f0Ce4ZD3ugK4C7Q%3D\" --log-level=NONE"}
+{"level":"debug","time":"2022-07-25T17:12:19.830+0530","caller":"core/lifecycle.go:338","msg":"Uploading yaml : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:12:19.830+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 577 B"}
+{"level":"debug","time":"2022-07-25T17:12:21.917+0530","caller":"core/lifecycle.go:338","msg":""}
+{"level":"info","time":"2022-07-25T17:12:29.885+0530","caller":"core/lifecycle.go:358","msg":"Job \u001b[1m\u001b[4m00f74331-6c56-4775-85cf-eef580f9bb98\u001b[0m\u001b[0m has \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=00f74331-6c56-4775-85cf-eef580f9bb98\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"New Tasks generated"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: 8a782768-2f2d-48af-bce9-d7b81587d1fc"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 8a782768-2f2d-48af-bce9-d7b81587d1fc"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: 7fafe33d-8c5f-470d-92be-328b7b29139a"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 7fafe33d-8c5f-470d-92be-328b7b29139a"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: cd37c408-5c0b-4ca1-b4bc-debc1e3342d5"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: cd37c408-5c0b-4ca1-b4bc-debc1e3342d5"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: 9cb053b2-402f-4461-b89b-098eaf9d7030"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 9cb053b2-402f-4461-b89b-098eaf9d7030"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: af1fe4bd-2fcd-40cd-b2c9-a9ee7d3af6fe"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: af1fe4bd-2fcd-40cd-b2c9-a9ee7d3af6fe"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: 9e43fac6-9b60-4af4-aafc-8f7a1165c171"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 9e43fac6-9b60-4af4-aafc-8f7a1165c171"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: c085a1f7-2e13-402e-a85c-1a6c68f11499"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: c085a1f7-2e13-402e-a85c-1a6c68f11499"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: bb8e06ee-4169-4631-8123-72728d3049a9"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: bb8e06ee-4169-4631-8123-72728d3049a9"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: b794ae37-79dd-4678-bec1-b7f4a5558ba0"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: b794ae37-79dd-4678-bec1-b7f4a5558ba0"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Task id: 63e8c8ce-ac84-44f5-b65b-25fc4d7700ba"}
+{"level":"debug","time":"2022-07-25T17:12:29.898+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 63e8c8ce-ac84-44f5-b65b-25fc4d7700ba"}
+{"level":"info","time":"2022-07-25T17:12:30.431+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:32.069+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:33.400+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:35.145+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:35.869+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (7s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:37.244+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:39.150+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:41.331+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:43.948+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:46.694+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:49.108+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (14s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:50.910+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (16s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:51.477+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:52.304+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:52.856+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:53.369+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:53.880+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:54.397+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:55.265+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:55.827+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:56.440+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:57.055+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (20s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:57.627+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:58.360+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:58.870+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:59.361+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:12:59.853+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:00.110+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:00.609+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:01.572+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:30.272+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:32.378+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:33.304+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:34.180+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:34.671+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:13:36.437+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:17.486+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mtests/specs/googleSearch.js (2m12s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:22.500+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/specs/ToDo.js (2m18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:23.229+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:25.366+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:27.953+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/specs/demo.js (2m18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:30.566+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:33.445+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mtests/specs/single_test.js (2m29s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:15:33.909+0530","caller":"core/lifecycle.go:358","msg":"\n\nJob status"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"taskstagemanager/tracker.go:152","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m2m2s\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m2m2s\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    3m15s"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          10"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             18m4s"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Stages\u001b[0m:                         24"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2022-07-25T17:15:33.910+0530","caller":"taskstagemanager/tracker.go:152","msg":""}
+{"level":"debug","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"Successfully deleted code archive: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-00f74331-6c56-4775-85cf-eef580f9bb98.zip\n"}
+{"level":"debug","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"Context cancelled"}
+{"level":"info","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-07-25T17:15:34.968+0530","caller":"cmd/bin.go:157","msg":"All goroutines exited"}
+{"level":"info","time":"2022-07-25T17:15:36.077+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:15:42.237+0530","caller":"runtime/asm_amd64.s:1571","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2022-07-25T17:16:31.704+0530","caller":"cobra@v0.0.6/command.go:844","msg":"HyperExecute cli version: 0.0.214"}
+{"level":"debug","time":"2022-07-25T17:16:32.810+0530","caller":"cmd/bin.go:157","msg":"Upstream version: {Min:0.0.214 Max:0.0.214} "}
+{"level":"debug","time":"2022-07-25T17:16:32.810+0530","caller":"cmd/bin.go:157","msg":"Parsing config"}
+{"level":"debug","time":"2022-07-25T17:16:32.810+0530","caller":"yamlconfigmanager/setup.go:58","msg":"Trying config: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:16:32.810+0530","caller":"core/lifecycle.go:96","msg":"using hyperexecute config from : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:96","msg":"Tunnel: false"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"\n\u001b[4m\u001b[1m\u001b[97mExecution Plan\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"Mode:    \u001b[36mautosplit\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"Runson:    \u001b[36mwin\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"Concurrency:    \u001b[36m10\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"Report:    \u001b[36mdisabled\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"Cache Directories:"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":"    \u001b[36m.node_modules\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:103","msg":""}
+{"level":"debug","time":"2022-07-25T17:16:33.741+0530","caller":"core/lifecycle.go:106","msg":"Warning: Checking data.json file in current directory, no dataJsonPath found in .hyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:16:33.742+0530","caller":"core/lifecycle.go:106","msg":"Warning: data.json file doesn't exist"}
+{"level":"info","time":"2022-07-25T17:16:38.195+0530","caller":"cmd/bin.go:157","msg":"\u001b[102m\u001b[1m\u001b[30mYou've consumed 6.06 % of your limit. Free trial days left - 341\u001b[0m\u001b[0m\u001b[0m"}
+{"level":"debug","time":"2022-07-25T17:16:38.195+0530","caller":"cmd/bin.go:157","msg":"Job ID: 769b7df1-5069-446c-98ab-bebe2609d58d"}
+{"level":"debug","time":"2022-07-25T17:16:38.196+0530","caller":"core/lifecycle.go:314","msg":"Creating archive of target directory: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample"}
+{"level":"debug","time":"2022-07-25T17:16:38.228+0530","caller":"core/lifecycle.go:314","msg":"Zip file size: 290KB"}
+{"level":"debug","time":"2022-07-25T17:16:38.229+0530","caller":"cmd/bin.go:157","msg":"Archive location: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-769b7df1-5069-446c-98ab-bebe2609d58d.zip\n"}
+{"level":"debug","time":"2022-07-25T17:16:39.557+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 302.3 kB"}
+{"level":"debug","time":"2022-07-25T17:16:39.557+0530","caller":"core/lifecycle.go:338","msg":".hyperexecute/azcopy copy \"/Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-769b7df1-5069-446c-98ab-bebe2609d58d.zip\" \"https://hyperexecuteprod.blob.core.windows.net/uploads/769b7df1-5069-446c-98ab-bebe2609d58d.zip?st=2022-07-25T11%3A36%3A40Z&se=2022-07-25T13%3A26%3A40Z&sp=rw&sv=2018-03-28&sr=b&sig=EBuNx7oesr0qJht2uqKuaIMfUMpl1aEuXMwuN3WidSI%3D\" --log-level=NONE"}
+{"level":"debug","time":"2022-07-25T17:16:43.591+0530","caller":"core/lifecycle.go:338","msg":"Uploading yaml : /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/.updatedhyperexecute.yaml"}
+{"level":"debug","time":"2022-07-25T17:16:43.591+0530","caller":"core/lifecycle.go:338","msg":"Payload size: 577 B"}
+{"level":"debug","time":"2022-07-25T17:16:45.622+0530","caller":"core/lifecycle.go:338","msg":""}
+{"level":"info","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Job \u001b[1m\u001b[4m769b7df1-5069-446c-98ab-bebe2609d58d\u001b[0m\u001b[0m has \u001b[97mRUNNING\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Job Link: \u001b[4m\u001b[34mhttps://hyperexecute.lambdatest.com/hyperexecute/task?jobId=769b7df1-5069-446c-98ab-bebe2609d58d\u001b[0m\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"New Tasks generated"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: e2e19d15-d74f-4b91-aa89-39031a08b917"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: e2e19d15-d74f-4b91-aa89-39031a08b917"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: eb59cbf9-a6dd-458a-b08c-a2d6a9f24d89"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: eb59cbf9-a6dd-458a-b08c-a2d6a9f24d89"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: b6bba986-124e-49b4-b0ed-1f5484075e26"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: b6bba986-124e-49b4-b0ed-1f5484075e26"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: a01d7b34-7972-422c-b748-8d150b6cb4a0"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: a01d7b34-7972-422c-b748-8d150b6cb4a0"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: 5a47fa20-b73d-4cd0-852c-3cfe999700de"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 5a47fa20-b73d-4cd0-852c-3cfe999700de"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: 97d864f0-8072-4d4d-94f4-6e2019c2b0e8"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 97d864f0-8072-4d4d-94f4-6e2019c2b0e8"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: 41c5237b-fcc6-4e9e-8d10-d8df2abb94aa"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 41c5237b-fcc6-4e9e-8d10-d8df2abb94aa"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: 51d20725-398e-437e-8294-2d74601a89df"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 51d20725-398e-437e-8294-2d74601a89df"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Task id: bfa14e2c-4438-4833-8015-65f79c6d864e"}
+{"level":"debug","time":"2022-07-25T17:16:53.796+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: bfa14e2c-4438-4833-8015-65f79c6d864e"}
+{"level":"debug","time":"2022-07-25T17:16:53.797+0530","caller":"core/lifecycle.go:358","msg":"Task id: 2c0dc122-6210-4c92-972b-20d9b26b4285"}
+{"level":"debug","time":"2022-07-25T17:16:53.797+0530","caller":"core/lifecycle.go:358","msg":"Sending new task alert to stage manager for taskId: 2c0dc122-6210-4c92-972b-20d9b26b4285"}
+{"level":"info","time":"2022-07-25T17:16:54.815+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:16:56.810+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:16:57.313+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-download (5s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:16:58.348+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-download (5s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:16:59.072+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:00.780+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:02.687+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:04.842+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-download (5s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:07.266+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-download (3s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:10.172+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-download (5s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:14.526+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mpre (16s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:15.087+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:15.907+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:16.878+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mpre (17s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:17.647+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:18.218+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mpre (18s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:18.760+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:19.342+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:20.003+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mpre (16s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:20.616+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:21.112+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mpre (16s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:21.373+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:21.947+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mpre (20s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:22.459+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:22.955+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mpre (20s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:23.450+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:23.956+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:24.973+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:25.938+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mdiscovery (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:26.666+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mdiscovery (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:56.673+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [5]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:57.169+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [6]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:57.663+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [7]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:58.166+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [8]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:58.669+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [9]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:17:59.189+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [10]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:43.247+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mtests/specs/demo.js (2m15s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:44.027+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [4]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:46.341+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [2]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:53.204+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mtests/specs/googleSearch.js (2m19s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:56.782+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mtests/specs/ToDo.js (2m26s)\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:57.582+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [3]  \u001b[2mcache-upload (1s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:19:57.960+0530","caller":"core/lifecycle.go:358","msg":"\n\nJob status"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"taskstagemanager/tracker.go:152","msg":"\n\u001b[102m\u001b[1m\u001b[30m COMPLETED \u001b[0m\u001b[0m\u001b[0m\n"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m2m5s\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTest Execution Time\u001b[0m:                  \u001b[92m2m5s\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mJob Duration Time\u001b[0m:                    3m17s"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Tasks\u001b[0m:                          10"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mCumulative Time Consumed\u001b[0m:             18m7s"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mTotal Stages\u001b[0m:                         24"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass discovery stage percentage\u001b[0m:      100.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed discovery stage percentage\u001b[0m:    0.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass pre stage percentage\u001b[0m:            \u001b[92m100.00%\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:19:57.960+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed pre stage percentage\u001b[0m:          0.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass test stage percentage\u001b[0m:           75.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed test stage percentage\u001b[0m:         \u001b[91m25.00%\u001b[0m"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mPass post stage percentage\u001b[0m:           0.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed post stage percentage\u001b[0m:         0.00%"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"jobmanager/JobSummaryManager.go:39","msg":"    \u001b[1mFailed Tasks\u001b[0m:                         0"}
+{"level":"info","time":"2022-07-25T17:19:57.961+0530","caller":"taskstagemanager/tracker.go:152","msg":""}
+{"level":"debug","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"Successfully deleted code archive: /Users/amitwalia/Documents/LT_Work/demos/wdio-hye/WebdriverIO-HyperExecute-Sample/hyperexecute-code-769b7df1-5069-446c-98ab-bebe2609d58d.zip\n"}
+{"level":"debug","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"Context cancelled"}
+{"level":"info","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"\u001b[2mStopping pipeline gracefully\u001b[0m"}
+{"level":"debug","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2022-07-25T17:19:59.093+0530","caller":"cmd/bin.go:157","msg":"All goroutines exited"}
+{"level":"info","time":"2022-07-25T17:19:59.745+0530","caller":"taskstagemanager/tracker.go:359","msg":"\u001b[32m✔\u001b[0m [1]  \u001b[2mcache-upload (2s)\u001b[0m\n"}
+{"level":"debug","time":"2022-07-25T17:20:02.118+0530","caller":"runtime/asm_amd64.s:1571","msg":"main: all goroutines have finished."}

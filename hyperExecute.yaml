@@ -4,7 +4,7 @@ testSuiteTimeout: 90
 testSuiteStep: 90
 runson: win
 autosplit: true
-concurrency: 2
+concurrency: 10
 tunnel: false
 pre:
   - npm install

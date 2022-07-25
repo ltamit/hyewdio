@@ -1,0 +1,12 @@
+Options:
+  --help     Show help                                                 [boolean]
+  --version  Show version number                                       [boolean]
+
+Error: spec file(s) tests\specs\*.js not found
+    at ConfigParser.setFilePathToFilterOptions (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\config\build\lib\ConfigParser.js:249:19)
+    at ConfigParser.merge (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\config\build\lib\ConfigParser.js:107:39)
+    at new Launcher (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\cli\build\launcher.js:35:27)
+    at launch (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\cli\build\commands\run.js:125:22)
+    at handler (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\cli\build\commands\run.js:164:16)
+    at Object.run (D:\foreman\WebdriverIO-HyperExecute-Sample\node_modules\@wdio\cli\build\index.js:77:34)
+Command Failed

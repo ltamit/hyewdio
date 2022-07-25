@@ -1,0 +1,22 @@
+version: "0.1"
+user: amitwalia
+key: GLuoOMYYMQ4t3T41p9CtUQiVZ9xqjGboG2imkQzliz407avzue
+testSuites: []
+pre: [npm install]
+runson: win
+autosplit: true
+concurrency: 10
+testDiscovery:
+  autosubset: true
+  command: grep -lr 'describe' tests/specs/*.js
+  mode: dynamic
+  type: raw
+testRunnerCommand: npx wdio conf\wdio.conf.js --spec tests\specs\demo.js
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+cacheDirectories:
+- .node_modules
+cacheKey: '{{ checksum "package-lock.json" }}'
+jobID: 769b7df1-5069-446c-98ab-bebe2609d58d
+codeDirectory: WebdriverIO-HyperExecute-Sample
