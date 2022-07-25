@@ -1,0 +1,96 @@
+
+Execution of 1 workers started at 2022-07-25T12:48:21.930Z
+
+2022-07-25T12:48:22.147Z INFO @wdio/cli:launcher: Run onPrepare hook
+2022-07-25T12:48:22.149Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2022-07-25T12:48:22.151Z INFO @wdio/local-runner: Start worker 0-0 with arg: conf\wdio.conf.js,--spec,tests\specs\ToDo.js
+[0-0] [90m2022-07-25T12:48:22.264Z[39m [33mWARN[39m [97m@wdio/utils:shim[39m: You are running tests with @wdio/sync which will be discontinued starting Node.js v16.Read more on https://github.com/webdriverio/webdriverio/discussions/6702
+[0-0] [90m2022-07-25T12:48:22.654Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-0] RUNNING in undefined - D:\foreman\WebdriverIO-HyperExecute-Sample\tests\specs\ToDo.js
+[0-0] [90m2022-07-25T12:48:23.109Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-0] [90m2022-07-25T12:48:23.164Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session
+[0-0] [90m2022-07-25T12:48:23.166Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   capabilities: { alwaysMatch: { 'LT:Options': [Object] }, firstMatch: [ {} ] },
+[0-0]   desiredCapabilities: {
+[0-0]     'LT:Options': {
+[0-0]       browserName: 'Chrome',
+[0-0]       version: 'latest',
+[0-0]       name: 'Test WebdriverIO',
+[0-0]       build: 'WebDriver Selenium Standard',
+[0-0]       visual: true,
+[0-0]       console: true,
+[0-0]       network: true,
+[0-0]       platformName: 'win10'
+[0-0]     }
+[0-0]   }
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.236Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m navigateTo("https://lambdatest.github.io/sample-todo-app/")
+[0-0] [90m2022-07-25T12:48:47.237Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/url
+[0-0] [90m2022-07-25T12:48:47.237Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { url: 'https://lambdatest.github.io/sample-todo-app/' }
+[0-0] [90m2022-07-25T12:48:47.639Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "body > div > div > div > ul > li:nth-child(1) > input")
+[0-0] [90m2022-07-25T12:48:47.639Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element
+[0-0] [90m2022-07-25T12:48:47.639Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   using: 'css selector',
+[0-0]   value: 'body > div > div > div > ul > li:nth-child(1) > input'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.675Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '10c4d966-f526-4479-b8e7-da7e8424b5c9'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.685Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("10c4d966-f526-4479-b8e7-da7e8424b5c9")
+[0-0] [90m2022-07-25T12:48:47.685Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/10c4d966-f526-4479-b8e7-da7e8424b5c9/click
+[0-0] [90m2022-07-25T12:48:47.751Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "body > div > div > div > ul > li:nth-child(2) > input")
+[0-0] [90m2022-07-25T12:48:47.751Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element
+[0-0] [90m2022-07-25T12:48:47.751Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   using: 'css selector',
+[0-0]   value: 'body > div > div > div > ul > li:nth-child(2) > input'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.784Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': 'e27119e1-dd42-41c0-af21-6f7ad64bf722'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.790Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("e27119e1-dd42-41c0-af21-6f7ad64bf722")
+[0-0] [90m2022-07-25T12:48:47.790Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/e27119e1-dd42-41c0-af21-6f7ad64bf722/click
+[0-0] [90m2022-07-25T12:48:47.891Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "body > div > div > div > ul > li:nth-child(3) > input")
+[0-0] [90m2022-07-25T12:48:47.891Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element
+[0-0] [90m2022-07-25T12:48:47.891Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   using: 'css selector',
+[0-0]   value: 'body > div > div > div > ul > li:nth-child(3) > input'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.927Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '059193aa-1346-49d1-a460-cb140b6829d5'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:47.931Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("059193aa-1346-49d1-a460-cb140b6829d5")
+[0-0] [90m2022-07-25T12:48:47.931Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/059193aa-1346-49d1-a460-cb140b6829d5/click
+[0-0] [90m2022-07-25T12:48:48.032Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#sampletodotext")
+[0-0] [90m2022-07-25T12:48:48.032Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element
+[0-0] [90m2022-07-25T12:48:48.032Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#sampletodotext' }
+[0-0] [90m2022-07-25T12:48:48.068Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': 'a7d51e08-6a3d-4ccf-b11d-1a451c57a96e'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:48.075Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("a7d51e08-6a3d-4ccf-b11d-1a451c57a96e")
+[0-0] [90m2022-07-25T12:48:48.075Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/a7d51e08-6a3d-4ccf-b11d-1a451c57a96e/clear
+[0-0] [90m2022-07-25T12:48:48.155Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("a7d51e08-6a3d-4ccf-b11d-1a451c57a96e", "Add new item")
+[0-0] [90m2022-07-25T12:48:48.155Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/a7d51e08-6a3d-4ccf-b11d-1a451c57a96e/value
+[0-0] [90m2022-07-25T12:48:48.155Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'Add new item' }
+[0-0] [90m2022-07-25T12:48:48.292Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("css selector", "#addbutton")
+[0-0] [90m2022-07-25T12:48:48.293Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element
+[0-0] [90m2022-07-25T12:48:48.293Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'css selector', value: '#addbutton' }
+[0-0] [90m2022-07-25T12:48:48.324Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '4948598e-a3d4-44c8-b62a-343a81c2d42b'
+[0-0] }
+[0-0] [90m2022-07-25T12:48:48.332Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClick("4948598e-a3d4-44c8-b62a-343a81c2d42b")
+[0-0] [90m2022-07-25T12:48:48.332Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b/element/4948598e-a3d4-44c8-b62a-343a81c2d42b/click
+[0-0] undefined undefined 1171 { attempts: 0, limit: 0 }
+[0-0] =========result========= 0 true
+[0-0] [90m2022-07-25T12:48:48.408Z[39m [96mINFO[39m [97m@wdio/lambdatest-service[39m: Update job with sessionId 6ba0b9243815111a4c8173c6184ff94b, status: passed
+[0-0] [90m2022-07-25T12:48:53.523Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-0] [90m2022-07-25T12:48:53.524Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://hub.lambdatest.com/wd/hub/session/6ba0b9243815111a4c8173c6184ff94b
+[0-0] PASSED in undefined - D:\foreman\WebdriverIO-HyperExecute-Sample\tests\specs\ToDo.js
+2022-07-25T12:48:53.720Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2022-07-25T12:48:53.720Z INFO @wdio/cli:launcher: Run onComplete hook
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:31 
+
+2022-07-25T12:48:53.721Z INFO @wdio/local-runner: Shutting down spawned worker
+2022-07-25T12:48:53.973Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2022-07-25T12:48:53.974Z INFO @wdio/local-runner: shutting down
+Command succeded

@@ -7,16 +7,17 @@ runson: win
 autosplit: true
 concurrency: 10
 testDiscovery:
-  autosubset: true
-  command: grep -lr 'describe' tests/specs/*.js
-  mode: dynamic
+  command: grep -lr 'describe' tests/specs/demo_vd.js
+  mode: static
   type: raw
-testRunnerCommand: npx wdio conf\wdio.conf.js --spec tests\specs\demo.js
+testDiscoveryResult:
+- tests/specs/demo_vd.js
+testRunnerCommand: npx wdio conf\wdio.conf.js --spec tests\specs\demo_vd.js
 globalTimeout: 90
 testSuiteTimeout: 90
 testSuiteStep: 90
 cacheDirectories:
 - .node_modules
 cacheKey: '{{ checksum "package-lock.json" }}'
-jobID: 769b7df1-5069-446c-98ab-bebe2609d58d
+jobID: be53f856-b33e-49a8-a1ee-d9363f9055ba
 codeDirectory: WebdriverIO-HyperExecute-Sample

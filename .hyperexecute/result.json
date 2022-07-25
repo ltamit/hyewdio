@@ -1,463 +1,85 @@
 {
-    "id": "769b7df1-5069-446c-98ab-bebe2609d58d",
-    "created_at": "2022-07-25T11:46:40Z",
-    "update_at": "2022-07-25T11:49:57Z",
+    "id": "be53f856-b33e-49a8-a1ee-d9363f9055ba",
+    "created_at": "2022-07-25T14:20:56Z",
+    "update_at": "2022-07-25T14:24:02Z",
     "global_timeout": 90,
     "tunnel_name": "",
-    "start_time": "2022-07-25T11:46:50Z",
-    "end_time": "2022-07-25T11:49:57Z",
+    "start_time": "2022-07-25T14:21:06Z",
+    "end_time": "2022-07-25T14:24:02Z",
     "summary": {
-        "total_time": 197000000000,
-        "execution_time": 187000000000,
-        "total_tasks": 10,
-        "build_time_consumed": 1087000000000,
-        "jobTestExecutionTime": "2m5s",
+        "total_time": 186000000000,
+        "execution_time": 176000000000,
+        "total_tasks": 1,
+        "build_time_consumed": 176000000000,
+        "jobTestExecutionTime": "1m52s",
         "failed_tasks": 0,
         "total_stage_info": {
             "prerun": {
                 "StageFailedPercent": 0,
                 "StagePassPercent": 100,
-                "TotalStage": 10
+                "TotalStage": 1
             },
             "scenario": {
-                "StageFailedPercent": 25,
-                "StagePassPercent": 75,
-                "TotalStage": 4
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 1
             },
             "test_discovery": {
                 "StageFailedPercent": 0,
                 "StagePassPercent": 100,
-                "TotalStage": 10
+                "TotalStage": 1
             }
         },
         "status": "completed"
     },
     "tasks": [
         {
-            "id": "e2e19d15-d74f-4b91-aa89-39031a08b917",
+            "id": "2aac9162-d230-4a60-9b72-02b0f700e35d",
             "os": "win",
             "status": "completed",
             "remark": "completed",
             "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:49:57Z",
-            "start_time": "2022-07-25T11:46:50Z",
-            "end_time": "2022-07-25T11:49:57Z",
+            "created_at": "2022-07-25T14:21:05Z",
+            "update_at": "2022-07-25T14:24:02Z",
+            "start_time": "2022-07-25T14:21:06Z",
+            "end_time": "2022-07-25T14:24:02Z",
             "group_number": 1,
             "stages": [
                 {
-                    "id": "cc9109f1-106c-41b1-a031-9081621e31cb",
+                    "id": "fd848d38-cc87-4d9b-9d16-2e036a9b6cfc",
                     "type": "prerun",
                     "status": "completed",
                     "name": "pre",
                     "iteration": 0,
                     "link": "pre.log",
-                    "created_at": "2022-07-25T11:47:00Z",
-                    "started_at": "2022-07-25T11:47:01Z",
-                    "updated_at": "2022-07-25T11:47:21Z",
+                    "created_at": "2022-07-25T14:21:13Z",
+                    "started_at": "2022-07-25T14:21:14Z",
+                    "updated_at": "2022-07-25T14:21:32Z",
                     "order": 2
                 },
                 {
-                    "id": "715a240f-fe4d-4646-b445-32b1ffecce29",
+                    "id": "e7ba7737-1a0a-4eab-b576-18b62c316c59",
                     "type": "test_discovery",
                     "status": "completed",
                     "name": "discovery",
                     "iteration": 0,
                     "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:23Z",
-                    "started_at": "2022-07-25T11:47:24Z",
-                    "updated_at": "2022-07-25T11:47:25Z",
+                    "created_at": "2022-07-25T14:21:34Z",
+                    "started_at": "2022-07-25T14:21:36Z",
+                    "updated_at": "2022-07-25T14:21:37Z",
                     "order": 3
                 },
                 {
-                    "id": "d96f328b-4f4d-4d1f-bf15-a990434b6927",
+                    "id": "f1b35941-419a-4dd8-9062-68e68c41f600",
                     "type": "scenario",
                     "status": "completed",
-                    "name": "tests/specs/ToDo.js",
+                    "name": "tests/specs/demo_vd.js",
                     "iteration": 0,
                     "link": "command.1.0.log",
-                    "created_at": "2022-07-25T11:47:27Z",
-                    "started_at": "2022-07-25T11:47:31Z",
-                    "updated_at": "2022-07-25T11:49:57Z",
+                    "created_at": "2022-07-25T14:21:39Z",
+                    "started_at": "2022-07-25T14:21:42Z",
+                    "updated_at": "2022-07-25T14:24:00Z",
                     "order": 4
-                }
-            ]
-        },
-        {
-            "id": "eb59cbf9-a6dd-458a-b08c-a2d6a9f24d89",
-            "os": "win",
-            "status": "completed",
-            "remark": "completed",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:49:41Z",
-            "start_time": "2022-07-25T11:46:50Z",
-            "end_time": "2022-07-25T11:49:41Z",
-            "group_number": 2,
-            "stages": [
-                {
-                    "id": "ae63c377-324e-4092-b4d5-ac1b3aebb347",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:16Z",
-                    "order": 2
-                },
-                {
-                    "id": "cccd73dc-5252-4293-a32a-c83fb2c491de",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:18Z",
-                    "started_at": "2022-07-25T11:47:19Z",
-                    "updated_at": "2022-07-25T11:47:20Z",
-                    "order": 3
-                },
-                {
-                    "id": "cb5aa817-523f-45fa-88a9-bc24a06403d9",
-                    "type": "scenario",
-                    "status": "completed",
-                    "name": "tests/specs/demo.js",
-                    "iteration": 0,
-                    "link": "command.1.0.log",
-                    "created_at": "2022-07-25T11:47:22Z",
-                    "started_at": "2022-07-25T11:47:26Z",
-                    "updated_at": "2022-07-25T11:49:41Z",
-                    "order": 4
-                }
-            ]
-        },
-        {
-            "id": "b6bba986-124e-49b4-b0ed-1f5484075e26",
-            "os": "win",
-            "status": "completed",
-            "remark": "completed",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:49:51Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:49:51Z",
-            "group_number": 3,
-            "stages": [
-                {
-                    "id": "4cddb7ee-f014-4d1b-bc8d-8d72ccee9c85",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:47:00Z",
-                    "started_at": "2022-07-25T11:47:01Z",
-                    "updated_at": "2022-07-25T11:47:21Z",
-                    "order": 2
-                },
-                {
-                    "id": "6fc630ec-aa36-487c-9233-dee274b8cd32",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:23Z",
-                    "started_at": "2022-07-25T11:47:24Z",
-                    "updated_at": "2022-07-25T11:47:26Z",
-                    "order": 3
-                },
-                {
-                    "id": "8c44d983-3047-44d1-ac7a-c69ca8111a94",
-                    "type": "scenario",
-                    "status": "completed",
-                    "name": "tests/specs/googleSearch.js",
-                    "iteration": 0,
-                    "link": "command.1.0.log",
-                    "created_at": "2022-07-25T11:47:28Z",
-                    "started_at": "2022-07-25T11:47:32Z",
-                    "updated_at": "2022-07-25T11:49:51Z",
-                    "order": 4
-                }
-            ]
-        },
-        {
-            "id": "a01d7b34-7972-422c-b748-8d150b6cb4a0",
-            "os": "win",
-            "status": "completed",
-            "remark": "completed",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:49:40Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:49:40Z",
-            "group_number": 4,
-            "stages": [
-                {
-                    "id": "f3b25ad9-cb34-46b8-9abe-608fda8ee2c2",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:17Z",
-                    "order": 2
-                },
-                {
-                    "id": "db7792b2-7a11-4d2c-a236-0520320fb9c1",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:18Z",
-                    "started_at": "2022-07-25T11:47:19Z",
-                    "updated_at": "2022-07-25T11:47:21Z",
-                    "order": 3
-                },
-                {
-                    "id": "9e7e5658-1ded-4910-97f9-a23115744ec7",
-                    "type": "scenario",
-                    "status": "aborted",
-                    "name": "tests/specs/single_test.js",
-                    "iteration": 0,
-                    "link": "command.1.0.log",
-                    "created_at": "2022-07-25T11:47:23Z",
-                    "started_at": "2022-07-25T11:49:40Z",
-                    "updated_at": "2022-07-25T11:49:40Z",
-                    "order": 4
-                }
-            ]
-        },
-        {
-            "id": "5a47fa20-b73d-4cd0-852c-3cfe999700de",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:54Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:54Z",
-            "group_number": 5,
-            "stages": [
-                {
-                    "id": "bb789e0c-2e02-40e5-9ea5-d49659f4eb03",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:17Z",
-                    "order": 2
-                },
-                {
-                    "id": "d0577782-8bb4-4848-bbdc-495ddd45ebb5",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:18Z",
-                    "started_at": "2022-07-25T11:47:19Z",
-                    "updated_at": "2022-07-25T11:47:21Z",
-                    "order": 3
-                }
-            ]
-        },
-        {
-            "id": "97d864f0-8072-4d4d-94f4-6e2019c2b0e8",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:53Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:53Z",
-            "group_number": 6,
-            "stages": [
-                {
-                    "id": "d780db3d-2256-4bf8-94f3-3f3f7d1fd589",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:15Z",
-                    "order": 2
-                },
-                {
-                    "id": "3592dfa4-48f7-4fd1-b297-906c4a4646b1",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:17Z",
-                    "started_at": "2022-07-25T11:47:18Z",
-                    "updated_at": "2022-07-25T11:47:20Z",
-                    "order": 3
-                }
-            ]
-        },
-        {
-            "id": "41c5237b-fcc6-4e9e-8d10-d8df2abb94aa",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:53Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:53Z",
-            "group_number": 7,
-            "stages": [
-                {
-                    "id": "1a79dc3f-83ff-4d10-894b-b629b12f820b",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:16Z",
-                    "order": 2
-                },
-                {
-                    "id": "9daa1ab0-5b5c-4711-8ca0-d42856365fff",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:18Z",
-                    "started_at": "2022-07-25T11:47:19Z",
-                    "updated_at": "2022-07-25T11:47:20Z",
-                    "order": 3
-                }
-            ]
-        },
-        {
-            "id": "51d20725-398e-437e-8294-2d74601a89df",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:56Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:56Z",
-            "group_number": 8,
-            "stages": [
-                {
-                    "id": "ec39e9c6-002a-4893-b9a9-3dce27539dcd",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:47:01Z",
-                    "started_at": "2022-07-25T11:47:02Z",
-                    "updated_at": "2022-07-25T11:47:18Z",
-                    "order": 2
-                },
-                {
-                    "id": "9555d0cb-6cce-4551-b80d-ed57938e6bb7",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:20Z",
-                    "started_at": "2022-07-25T11:47:21Z",
-                    "updated_at": "2022-07-25T11:47:22Z",
-                    "order": 3
-                }
-            ]
-        },
-        {
-            "id": "bfa14e2c-4438-4833-8015-65f79c6d864e",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:54Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:54Z",
-            "group_number": 9,
-            "stages": [
-                {
-                    "id": "5dcfbd63-ae2e-46f7-b832-287beb577ce2",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:46:58Z",
-                    "started_at": "2022-07-25T11:46:59Z",
-                    "updated_at": "2022-07-25T11:47:16Z",
-                    "order": 2
-                },
-                {
-                    "id": "9f1eefd4-ee53-474a-a035-51152cb1bc79",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:18Z",
-                    "started_at": "2022-07-25T11:47:19Z",
-                    "updated_at": "2022-07-25T11:47:20Z",
-                    "order": 3
-                }
-            ]
-        },
-        {
-            "id": "2c0dc122-6210-4c92-972b-20d9b26b4285",
-            "os": "win",
-            "status": "completed",
-            "remark": "Post \"https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage\": POST https://hypertest-sentinel-prod.azurewebsites.net/v1.0/stage giving up after 6 attempt(s)",
-            "debug": false,
-            "created_at": "2022-07-25T11:46:49Z",
-            "update_at": "2022-07-25T11:47:56Z",
-            "start_time": "2022-07-25T11:46:51Z",
-            "end_time": "2022-07-25T11:47:56Z",
-            "group_number": 10,
-            "stages": [
-                {
-                    "id": "22e97028-51d1-47c2-84ef-c7f4c2a8550d",
-                    "type": "prerun",
-                    "status": "completed",
-                    "name": "pre",
-                    "iteration": 0,
-                    "link": "pre.log",
-                    "created_at": "2022-07-25T11:47:01Z",
-                    "started_at": "2022-07-25T11:47:02Z",
-                    "updated_at": "2022-07-25T11:47:18Z",
-                    "order": 2
-                },
-                {
-                    "id": "88ebf77e-7be8-4dd1-83af-f70a6c709ebe",
-                    "type": "test_discovery",
-                    "status": "completed",
-                    "name": "discovery",
-                    "iteration": 0,
-                    "link": "discovery.log",
-                    "created_at": "2022-07-25T11:47:20Z",
-                    "started_at": "2022-07-25T11:47:21Z",
-                    "updated_at": "2022-07-25T11:47:22Z",
-                    "order": 3
                 }
             ]
         }

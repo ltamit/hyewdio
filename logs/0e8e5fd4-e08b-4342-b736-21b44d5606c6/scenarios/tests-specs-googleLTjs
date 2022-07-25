@@ -1,0 +1,83 @@
+
+Execution of 1 workers started at 2022-07-25T13:22:49.355Z
+
+2022-07-25T13:22:49.593Z INFO @wdio/cli:launcher: Run onPrepare hook
+2022-07-25T13:22:49.595Z INFO @wdio/cli:launcher: Run onWorkerStart hook
+2022-07-25T13:22:49.597Z INFO @wdio/local-runner: Start worker 0-0 with arg: conf\wdio.conf.js,--spec,tests\specs\googleLT.js
+[0-0] [90m2022-07-25T13:22:49.716Z[39m [33mWARN[39m [97m@wdio/utils:shim[39m: You are running tests with @wdio/sync which will be discontinued starting Node.js v16.Read more on https://github.com/webdriverio/webdriverio/discussions/6702
+[0-0] [90m2022-07-25T13:22:50.119Z[39m [96mINFO[39m [97m@wdio/local-runner[39m: Run worker command: run
+[0-0] RUNNING in undefined - D:\foreman\WebdriverIO-HyperExecute-Sample\tests\specs\googleLT.js
+[0-0] [90m2022-07-25T13:22:50.618Z[39m [96mINFO[39m [97mwebdriver[39m: Initiate new session using the WebDriver protocol
+[0-0] [90m2022-07-25T13:22:50.682Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session
+[0-0] [90m2022-07-25T13:22:50.682Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   capabilities: { alwaysMatch: { 'LT:Options': [Object] }, firstMatch: [ {} ] },
+[0-0]   desiredCapabilities: {
+[0-0]     'LT:Options': {
+[0-0]       browserName: 'Chrome',
+[0-0]       version: 'latest',
+[0-0]       name: 'Test WebdriverIO',
+[0-0]       build: 'WebDriver Selenium Standard',
+[0-0]       visual: true,
+[0-0]       console: true,
+[0-0]       network: true,
+[0-0]       platformName: 'win10'
+[0-0]     }
+[0-0]   }
+[0-0] }
+[0-0] [90m2022-07-25T13:23:12.694Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m navigateTo("https://www.lambdatest.com/")
+[0-0] [90m2022-07-25T13:23:12.694Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/url
+[0-0] [90m2022-07-25T13:23:12.694Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { url: 'https://www.lambdatest.com/' }
+[0-0] [90m2022-07-25T13:23:15.888Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getWindowHandles()
+[0-0] [90m2022-07-25T13:23:15.888Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/window/handles
+[0-0] [90m2022-07-25T13:23:16.043Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [ 'CDwindow-EDC13FB8ABDB01D79ACFC744958DC67F' ]
+[0-0] [90m2022-07-25T13:23:16.044Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m executeScript(<fn>, <object>)
+[0-0] [90m2022-07-25T13:23:16.045Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/execute/sync
+[0-0] [90m2022-07-25T13:23:16.045Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m {
+[0-0]   script: 'newWindow(...) [149 bytes]',
+[0-0]   args: [ 'https://www.google.com/', '', '' ]
+[0-0] }
+[0-0] [90m2022-07-25T13:23:16.237Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getWindowHandles()
+[0-0] [90m2022-07-25T13:23:16.238Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/window/handles
+[0-0] [90m2022-07-25T13:23:16.291Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [
+[0-0]   'CDwindow-EDC13FB8ABDB01D79ACFC744958DC67F',
+[0-0]   'CDwindow-85D8C84634312CBB09B991FDDD944E70'
+[0-0] ]
+[0-0] [90m2022-07-25T13:23:16.292Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getWindowHandles()
+[0-0] [90m2022-07-25T13:23:16.292Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/window/handles
+[0-0] [90m2022-07-25T13:23:16.326Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m [
+[0-0]   'CDwindow-EDC13FB8ABDB01D79ACFC744958DC67F',
+[0-0]   'CDwindow-85D8C84634312CBB09B991FDDD944E70'
+[0-0] ]
+[0-0] [90m2022-07-25T13:23:16.326Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m switchToWindow("CDwindow-85D8C84634312CBB09B991FDDD944E70")
+[0-0] [90m2022-07-25T13:23:16.327Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/window
+[0-0] [90m2022-07-25T13:23:16.327Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { handle: 'CDwindow-85D8C84634312CBB09B991FDDD944E70' }
+[0-0] [90m2022-07-25T13:23:21.419Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m getTitle()
+[0-0] [90m2022-07-25T13:23:21.420Z[39m [96mINFO[39m [97mwebdriver[39m: [GET] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/title
+[0-0] [90m2022-07-25T13:23:21.449Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m Google
+[0-0] Google
+[0-0] [90m2022-07-25T13:23:21.451Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m findElement("xpath", ".//input[@name='q']")
+[0-0] [90m2022-07-25T13:23:21.452Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/element
+[0-0] [90m2022-07-25T13:23:21.452Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { using: 'xpath', value: ".//input[@name='q']" }
+[0-0] [90m2022-07-25T13:23:21.494Z[39m [96mINFO[39m [97mwebdriver[39m: [36mRESULT[39m {
+[0-0]   'element-6066-11e4-a52e-4f735466cecf': '2fe805bf-067a-4bd3-8ed1-cf6ffb2c9b77'
+[0-0] }
+[0-0] [90m2022-07-25T13:23:21.509Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementClear("2fe805bf-067a-4bd3-8ed1-cf6ffb2c9b77")
+[0-0] [90m2022-07-25T13:23:21.509Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/element/2fe805bf-067a-4bd3-8ed1-cf6ffb2c9b77/clear
+[0-0] [90m2022-07-25T13:23:21.586Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m elementSendKeys("2fe805bf-067a-4bd3-8ed1-cf6ffb2c9b77", "lambdatest.com")
+[0-0] [90m2022-07-25T13:23:21.587Z[39m [96mINFO[39m [97mwebdriver[39m: [POST] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c/element/2fe805bf-067a-4bd3-8ed1-cf6ffb2c9b77/value
+[0-0] [90m2022-07-25T13:23:21.587Z[39m [96mINFO[39m [97mwebdriver[39m: [33mDATA[39m { text: 'lambdatest.com' }
+[0-0] undefined undefined 14027 { attempts: 0, limit: 0 }
+[0-0] =========result========= 0 true
+[0-0] [90m2022-07-25T13:23:26.723Z[39m [96mINFO[39m [97m@wdio/lambdatest-service[39m: Update job with sessionId 552bae6c918112f7dc21fabb687c346c, status: passed
+[0-0] [90m2022-07-25T13:23:31.847Z[39m [96mINFO[39m [97mwebdriver[39m: [35mCOMMAND[39m deleteSession()
+[0-0] [90m2022-07-25T13:23:31.847Z[39m [96mINFO[39m [97mwebdriver[39m: [DELETE] http://hub.lambdatest.com/wd/hub/session/552bae6c918112f7dc21fabb687c346c
+[0-0] PASSED in undefined - D:\foreman\WebdriverIO-HyperExecute-Sample\tests\specs\googleLT.js
+2022-07-25T13:23:32.058Z INFO @wdio/cli:launcher: Run onWorkerEnd hook
+2022-07-25T13:23:32.058Z INFO @wdio/cli:launcher: Run onComplete hook
+
+Spec Files:	 1 passed, 1 total (100% completed) in 00:00:42 
+
+2022-07-25T13:23:32.060Z INFO @wdio/local-runner: Shutting down spawned worker
+2022-07-25T13:23:32.312Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
+2022-07-25T13:23:32.313Z INFO @wdio/local-runner: shutting down
+Command succeded
