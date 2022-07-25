@@ -336,6 +336,8 @@ HyperExecute lets you navigate from/to *Test Logs* in Automation Dashboard from/
 * HyperExecute HomePage: https://www.lambdatest.com/support/docs/getting-started-with-hyperexecute/
 * Lambdatest HomePage: https://www.lambdatest.com
 
+Standard Grid
+npx wdio conf/wdio.conf.js --spec tests/specs/demo_vd.js
 
-##HyperExecute
-npx wdio conf/wdio.conf.js --spec tests/specs/demo.js
+HyperExecute 
+./hyperexecute --config hyperExecute.yaml 
